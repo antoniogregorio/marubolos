@@ -19,7 +19,7 @@
                 <li><a href="#">Portfólio</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Contato</a></li>
-                <li><a class="btn-close"><i class="fa fa-times-circle" aria-hidden="true"></i></a></li>
+                <!--<li><a class="btn-close"><i class="fa fa-times-circle" aria-hidden="true"></i></a></li>-->
             </ul>
         </nav>
     </header>
@@ -46,9 +46,16 @@
             <p>Todos os Ddireitos Reservados</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
-      <script>
+<!--      <script>
        $(".btn-menu").click(function(){$(".menu").show();});
 		$(".btn-close").click(function(){$(".menu").hide();});
+    </script>-->
+    <script>
+         $(document).ready(function() {
+        $('.btn-menu').click(function() {
+                $('.menu').slideToggle("fast");
+        });
+    });
     </script>
 </body>
 </html>

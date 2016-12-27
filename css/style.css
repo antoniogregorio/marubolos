@@ -75,9 +75,11 @@ header {
 nav {
     display: none;
     margin-top: 28px;
-    width: 100%;
+    width: 99%;
     background-color: #fff;
     position: absolute;
+    font-size: 1.2em;
+
 }
 
 nav li {
