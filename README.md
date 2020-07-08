@@ -1,2 +1,2 @@
 # marubolos
-Site para fim educacional.
+Site para fins educacionais.
